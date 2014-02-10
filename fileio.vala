@@ -13,5 +13,10 @@ namespace playlang
 
 				return retstring;
 			}
+		public static void add_new_line(string toad, FileStream destination)
+			{
+				destination.puts(toad+"\n");
+			}
+		
 	}
 }

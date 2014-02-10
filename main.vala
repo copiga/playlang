@@ -15,7 +15,7 @@ int main(string[] argv)
 		playlang.compiler compiler = new playlang.compiler(nextop);
 		string compiled = compiler.compile();
 
-		playlang.fileio.add_new_line(compiled);
+		playlang.fileio.add_new_line(compiled, dest);
 	}
 	return 0;
 }
